@@ -20,6 +20,15 @@ body {
     
 }
 
+.btn_primary{
+    background-color: #E95A08;
+    color:#FFFFFF;
+    font-size: 1rem;
+    padding: 20px 80px;
+    border: none;
+}
+
+
 .orange{
     color: #E95A08;
 }
@@ -33,6 +42,9 @@ body {
     color: rgba(0, 0, 0, 0.5);
 }
 
+.dark_3{
+    color: #111111;
+}
 /* navbar style */
 .container li {
     list-style: none;
@@ -70,3 +82,42 @@ body {
 .hero_sub{
     font-size:1.3rem ;
 }
+
+/* card section style */
+
+.card{
+    text-align: center;
+     margin-top: 120px;
+}
+
+.card_content{
+    max-width: 270px;
+    text-align: center;
+}
+
+.card_tittle{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.c_sub_tittle{
+    font-size: 1.3rem;
+}
+
+.content_tittle{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.content_price{
+     font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.card_container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+   
+}
+
