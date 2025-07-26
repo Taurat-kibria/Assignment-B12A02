@@ -17,6 +17,20 @@
 body {
     max-width: 1140px;
     margin: 0 auto;
+    
+}
+
+.orange{
+    color: #E95A08;
+}
+
+.dark_1{
+    color: #000000;
+
+}
+
+.dark_2{
+    color: rgba(0, 0, 0, 0.5);
 }
 
 /* navbar style */
@@ -36,4 +50,23 @@ body {
     justify-content: space-between;
     width: 100%;
     align-items: center;
+}
+
+/* hero section */
+
+.hero
+{
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+
+
+.hero_tittle{
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.hero_sub{
+    font-size:1.3rem ;
 }
