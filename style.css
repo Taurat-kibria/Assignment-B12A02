@@ -14,7 +14,7 @@
     display: flex;
 }
 
-body {
+main, header  {
     max-width: 1140px;
     margin: 0 auto;
     
@@ -160,7 +160,7 @@ body {
 .input{
     background-image: url('assets/news-letter-bg.png');
     max-width: 1440px;
-    height: 600px;
+    height: 400px;
     margin-top: 120px;
     display: flex;
     justify-content: center;
@@ -184,6 +184,35 @@ body {
     margin-left: none;
 }
 
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1440px;
+    margin: 0 auto;
+    padding: 50px 160px;
+    background-color: white;
+}
+
+.footer li{
+    list-style: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.f_sub{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.3rem;
+}
+.f_social img{
+    margin-right: 10px;
+}
+
+.deal_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 
 /* small device */
 
@@ -226,6 +255,11 @@ body {
     .email{
         width: 100px;
         
+    }
+
+    .footer{
+        flex-direction: column;
+        margin-left: 0px;
     }
     
 }
